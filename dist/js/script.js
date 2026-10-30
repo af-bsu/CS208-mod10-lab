@@ -1,4 +1,15 @@
-/**
- * Intentionally left blank for future use. If you see this text
- * in any of my projects, it is because this file is not used
- */
+function domLoaded() {
+    let button = document.getElementById("add-button");
+    button.addEventListener("click", addBtnClick());
+}
+
+function addBtnClick(event) {
+    let textfield = document.getElementById("text-field");
+    addTask(textfield.value);
+}
+
+function addTask(string) {
+    console.log("Works!");
+}
+
+addEventListener("DOMContentLoaded", domLoaded());

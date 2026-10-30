@@ -27,4 +27,4 @@ app.get("/hello", function (request, response) {
 
 app.listen(port);
 console.log("Server started on port " + port);
-console.log("Hyperlink to the main page: https://localhost:8080")
+console.log("Hyperlink to the main page: http://localhost:8080")

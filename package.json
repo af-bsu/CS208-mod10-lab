@@ -6,7 +6,7 @@
     "start": "nodemon server.js"
   },
   "devDependencies": {
-    "nodemon": "^1.14.10"
+    "nodemon": "^1.19.4"
   },
   "allowScripts": {
     "nodemon@1.19.4": true
