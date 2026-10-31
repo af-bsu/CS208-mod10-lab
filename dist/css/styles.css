@@ -1,7 +1,27 @@
 body {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
-#todolist {
-   font: Arial;
+#todo-list {
+   width: 250px;
+   padding-left: 50px;
+}
+
+.task-row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 10px 0px;
+}
+
+.done-btn {
+   border: none;
+   background-color: white;
+   color: gray;
+   cursor: pointer;
+}
+
+.task-text {
+   flex: 1;
+   margin-right: 10px;
 }
